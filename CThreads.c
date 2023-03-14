@@ -1,9 +1,11 @@
-/* *************************************************
+/* ************************************************************
  * Author: Danny Brokke (dannybrokke@live.com)
  * Desc: C Program that utilizes threads to calculate
- * an equation. A mutex lock is used to ensure 
- * variable integrity.
-   *************************************************
+ * the natural log of a given number. The user is 
+ * able to specifcy the amount of threads & iterations
+ * they wish to use. A mutex lock is used to ensure variable
+ * integrity.
+   ************************************************************
 */ 
 #include <pthread.h>
 #include <math.h>
